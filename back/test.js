@@ -13,5 +13,6 @@ function capitalize(fullName){
 }
 console.log(capitalize("yehuda afriat"));
 // output: Yehuda Afriat
+// some change
 
 

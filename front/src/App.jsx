@@ -5,6 +5,7 @@ import { useState } from 'react';
 
 import Home from './components/Home';
 
+/* good weather app */
 export default function App() {
   
 

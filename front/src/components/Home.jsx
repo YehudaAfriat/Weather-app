@@ -34,6 +34,7 @@ export default function Home() {
       // בצד שרת ניתן לראות איך השרת קורא את הנתונים
       const response = await fetch(`http://localhost:3000/weather?city=${city}`);
       
+      // או.קיי - מחזיר בוליאני תקין כשמקבל סטטוסים בין 200 ל - 299
       if(!response.ok){
         throw new Error('Failed to fetch weather data. Please try again.');
       }

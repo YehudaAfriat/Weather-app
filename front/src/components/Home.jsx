@@ -9,9 +9,6 @@ export default function Home() {
   const [error, setError] = useState('');
   const [loading, setLoading] = useState(false);
   
-  // const bakcApi = process.env.REACT_APP_BACKEND_URL;
-  // console.log(bakcApi);
-    
   // פונקציה שתוציא בקשה איי-פי-איי לשרת לקבלת נתוני מזג אוויר
   const fetchWeather = async () => {
 
